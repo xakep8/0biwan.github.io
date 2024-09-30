@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" content="My Journey into Creating a Homebrew Formula for Odin
+Hello! I&rsquo;m Kunal Dubey, and this is my first blog post. Recently, I took on the challenge of creating a Homebrew formula for the Odin programming language. It was an exciting experience, filled with learning moments and a few obstacles along the way, which I’m excited to share with you.
+Getting Started
+I’ve always enjoyed working with package managers like Homebrew to streamline software installations, especially when working on different systems. The Odin programming language, a relatively new and fast-growing language, piqued my interest, and I wanted to contribute by making it easier to install on macOS and Linux. So, I decided to write a Homebrew formula for it, ensuring that developers could install Odin with a single command regardless of their platform.">  
+
+  <title>
+    
+      Firstpost
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/" />
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.c5af9bae99b4a3d315b9f39305ffff27e9c3383fbbfd8b5fcaf2237667021a333a982fb958d1813a720b0a660b14022337553ae1ca93ef2ee17c4ae628ac19cb.css" integrity="sha512-xa&#43;brpm0o9MVufOTBf//J&#43;nDOD&#43;7/YtfyvIjdmcCGjM6mC&#43;5WNGBOnILCmYLFAIjN1U64cqT7y7hfErmKKwZyw==" />
+  
+</head>
+<body a="auto">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+
+<article>
+    <p class="post-meta">
+        <time datetime="2024-09-30 19:13:07 &#43;0530 IST">
+            2024-09-30
+        </time>
+    </p>
+
+    <h1>Firstpost</h1>
+
+    
+
+    <h1 id="my-journey-into-creating-a-homebrew-formula-for-odin">My Journey into Creating a Homebrew Formula for Odin</h1>
+<p>Hello! I&rsquo;m Kunal Dubey, and this is my first blog post. Recently, I took on the challenge of creating a <strong>Homebrew formula</strong> for the <strong>Odin programming language</strong>. It was an exciting experience, filled with learning moments and a few obstacles along the way, which I’m excited to share with you.</p>
+<h2 id="getting-started">Getting Started</h2>
+<p>I’ve always enjoyed working with package managers like Homebrew to streamline software installations, especially when working on different systems. The Odin programming language, a relatively new and fast-growing language, piqued my interest, and I wanted to contribute by making it easier to install on macOS and Linux. So, I decided to write a Homebrew formula for it, ensuring that developers could install Odin with a single command regardless of their platform.</p>
+<h2 id="challenges-i-faced">Challenges I Faced</h2>
+<p>One of the early hurdles I encountered was setting up the formula to handle platform-specific dependencies. While Odin itself is cross-platform, some nuances in compiling and installing it on macOS versus Linux required extra attention.</p>
+<ol>
+<li><strong>Platform-specific paths</strong>: On macOS, Homebrew expects certain libraries and paths to be in different locations compared to Linux distributions. Adjusting for this required fine-tuning how the formula handled these dependencies.</li>
+<li><strong>Conditional logic</strong>: The Homebrew formula needed to account for macOS-specific nuances, like how macOS handles certain dependencies like LLVM, versus how Linux distributions handle them.</li>
+<li><strong>Testing environments</strong>: Ensuring consistent behavior across platforms meant I had to test and tweak the formula on both macOS and Linux environments to prevent breaking changes.</li>
+</ol>
+<h2 id="lessons-learned">Lessons Learned</h2>
+<p>While working on the Odin formula, I picked up some valuable lessons that will definitely help me in future Homebrew contributions:</p>
+<ol>
+<li>
+<p><strong>Conditional Logic for Dependencies</strong>: Writing conditionals such as <code>if OS.mac?</code> and <code>if OS.linux?</code> in the formula was key to managing platform-specific differences. These conditionals allowed me to include or exclude certain dependencies based on the operating system.</p>
+</li>
+<li>
+<p><strong>Testing on Multiple Platforms</strong>: This was critical. A formula might compile on macOS but fail on Linux due to differences in libraries, paths, or system utilities. Testing on both platforms is essential for cross-platform compatibility.</p>
+</li>
+<li>
+<p><strong>Reading the Community’s Work</strong>: I found that many solutions were already documented in the Homebrew community, which helped me avoid pitfalls. The Homebrew GitHub repository and discussions were full of insights from other developers working on similar issues.</p>
+</li>
+</ol>
+<h2 id="the-outcome">The Outcome</h2>
+<p>After some back-and-forth, I finally got the Odin formula working smoothly on both macOS and Linux! Now, developers can install the Odin programming language using a single Homebrew command, simplifying the installation process regardless of their system.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install odin
+</span></span></code></pre></div><h2 id="conclusion">Conclusion</h2>
+<p>Creating a Homebrew formula for Odin taught me a lot about cross-platform software management and deepened my understanding of package management tools. If you&rsquo;re thinking about contributing to open-source projects, I highly encourage it! You’ll not only improve your skills but also give back to the developer community.</p>
+<p>What open-source projects are you interested in contributing to? Let me know in the comments!</p>
+
+</article>
+
+            </div>
+        </main>
+    </body></html>

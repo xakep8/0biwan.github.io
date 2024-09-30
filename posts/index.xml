@@ -6,7 +6,14 @@
     <description>Recent content in Posts on 0biwan&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2024 19:13:07 +0530</lastBuildDate>
     <atom:link href="https://xakep8.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Firstpost</title>
+      <link>https://xakep8.github.io/posts/firstpost/</link>
+      <pubDate>Mon, 30 Sep 2024 19:13:07 +0530</pubDate>
+      <guid>https://xakep8.github.io/posts/firstpost/</guid>
+      <description>&lt;h1 id=&#34;my-journey-into-creating-a-homebrew-formula-for-odin&#34;&gt;My Journey into Creating a Homebrew Formula for Odin&lt;/h1&gt;&#xA;&lt;p&gt;Hello! I&amp;rsquo;m Kunal Dubey, and this is my first blog post. Recently, I took on the challenge of creating a &lt;strong&gt;Homebrew formula&lt;/strong&gt; for the &lt;strong&gt;Odin programming language&lt;/strong&gt;. It was an exciting experience, filled with learning moments and a few obstacles along the way, which I’m excited to share with you.&lt;/p&gt;&#xA;&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;&#xA;&lt;p&gt;I’ve always enjoyed working with package managers like Homebrew to streamline software installations, especially when working on different systems. The Odin programming language, a relatively new and fast-growing language, piqued my interest, and I wanted to contribute by making it easier to install on macOS and Linux. So, I decided to write a Homebrew formula for it, ensuring that developers could install Odin with a single command regardless of their platform.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
